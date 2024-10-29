@@ -1,0 +1,87 @@
+body {
+    background-color: #f4f4f4;
+}
+
+.main-header {
+    background-color: #333;
+}
+
+h1 {
+    color: black;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #f4f4f4;
+}
+
+.menu a:hover {
+    color: blue;
+}
+
+.section-info {
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    background-color: beige;
+}
+
+#about .list-item {
+    color: #555;
+}
+
+#about .list-item3 {
+    color: red;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    border: 1px solid #ddd;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #00aaff;
+    outline: none;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #222;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}
+
+section h2::before {
+    content: "— ";
+    color: #666;
+    margin-right: 8px;
+}
+
+nav ul.menu li a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul.menu li a:visited {
+    color: #0056b3;
+}
